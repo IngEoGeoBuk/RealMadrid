@@ -1,0 +1,142 @@
+.FooterTop {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    vertical-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    border-top: 1px solid rgb(153, 153, 153);
+}
+
+@media screen and (max-width:767px) {
+    .FooterTop {
+        padding: 0;
+        justify-content: center;
+        
+    }
+}
+
+.MiniMenu {
+    display: flex;
+    background-color: rgb(230, 230, 230);
+    border-top: 1px solid rgb(153, 153, 153);
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 990px) and (min-width:767px) {
+    .MiniMenu {
+        display: grid;
+        padding-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .MiniMenu {
+        display: grid;
+        padding-bottom: 2rem ;
+    }
+}
+
+
+
+.MiniMenuBox {
+    text-align: left;
+    padding-left: 1vw;
+    width: 10vw;
+}
+
+@media screen and (max-width: 990px) and (min-width:767px) {
+    .MiniMenuBox {
+        text-align: center;
+        padding-left:0;
+        width: 13vw;
+    }
+}
+
+
+.MiniMenuBox:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.MiniMenuBoxMain {
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    font-size: 0.9rem;
+    word-spacing: -0.15rem;
+    padding-bottom: 0.4rem;
+}
+
+@media screen and (max-width: 990px) and (min-width:767px) {
+    .MiniMenuBoxMain {
+        font-size: 1.3vw;
+        /* padding:0.3rem; */
+    }
+}
+
+.MiniMenuBoxMain:hover {
+    color: black
+}
+
+@media screen and (max-width: 990px) and (min-width:767px) {
+    .MiniMenuBox:hover {
+        background-color: none;
+    }
+}
+
+
+.MiniMenuBoxSub {
+    color: rgb(163, 163, 163);
+    font-size: 0.9rem;
+    word-spacing: -0.15rem;
+    padding-bottom: 0.4rem;
+}
+
+.MiniMenuBoxSub:hover {
+    color:black
+}
+
+.FooterBottom {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8rem;
+    background-color: rgb(230, 230, 230);
+}
+
+@media screen and (max-width:767px) {
+    .FooterBottom {
+        padding-bottom: 4rem;
+    }
+}
+
+
+.FooterBottom::before,
+.FooterBottom::after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    margin: auto 0.5rem;
+}
+
+
+.Copyright {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    vertical-align: center;
+    justify-content: space-around;
+    border-top: 1px solid rgb(153, 153, 153);
+    background-color: rgb(230, 230, 230);
+    padding: 1vw 0;
+    color: rgb(102, 102, 102);
+    font-size: 0.2vw;
+    font-weight: 500;
+}
+
+@media screen and (max-width:767px) {
+    .Copyright {
+        display: grid;
+    }
+}
+

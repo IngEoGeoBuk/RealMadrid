@@ -1,23 +1,28 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
+
+import LandingPage from './pages/LandingPage';
+import InicioPage from './pages/InicioPage';
+import FutbolPage from './pages/FutbolPage';
+import BaloncestoPage from './pages/BaloncestoPage';
+import ElclubPage from './pages/ElclubPage';
+import RmtvPage from './pages/RmtvPage'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header/>
+        <Switch>
+          <Route path='/RealMadrid' exact component = {LandingPage} />
+          <Route path='/RealMadrid/inicio' exact component = {InicioPage} />
+          <Route path='/RealMadrid/futbol' exact component = {FutbolPage} />
+          <Route path='/RealMadrid/baloncesto' exact component = {BaloncestoPage} />
+          <Route path='/RealMadrid/elclub' exact component = {ElclubPage} />
+          <Route path='/RealMadrid/rmtv' exact component = {RmtvPage} />
+        </Switch>
+      </Router>
     </div>
   );
 }

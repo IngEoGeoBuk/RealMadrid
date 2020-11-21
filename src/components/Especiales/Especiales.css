@@ -1,0 +1,122 @@
+.Especiales {
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    justify-content: center;
+    background-color:black;
+    padding: 0;
+}
+
+@media screen and (max-width:767px) {
+    .Especiales > div > div {
+        background-color: black;
+    }
+}
+
+.Especiales > .sc-fodVxV.hBRWT.rec.rec-carousel-wrapper {
+    padding: 3rem calc((80vw - 1030px) / 2);
+    background-color: black;
+}
+
+@media screen and (max-width:767px) {
+    .Especiales > .sc-fodVxV.hBRWT.rec.rec-carousel-wrapper {
+        padding: 0.5rem calc((80vw - 1030px) / 2);
+        padding-bottom: 1.5rem;
+    }
+}
+
+.sc-bkzZxe.gdbJiy.rec.rec-pagination {
+    display: none;
+}
+
+.EspecialesBox {
+    border-top: 3px black;
+}
+
+.EspecialesBoxPadding {
+    padding: 0 0.7vw;
+}
+
+.EspecialesBoxTitle {
+    color: rgb(111, 111, 111);
+    padding: 0.3vw 0;
+    font-weight: 500;
+    background-color: white;
+    font-size: 0.9vw;
+    word-spacing: -0.05vw;
+}
+
+@media screen and (max-width:767px) {
+    .EspecialesBoxTitle {
+        font-size: 3vw;
+        text-align: left;
+        padding: 0.3vw 0;
+    }
+}
+
+.EspecialesBoxContents {
+    font-size: 0.5vw;
+    color: black;
+    padding-bottom: 1.8vw;
+    word-spacing: -0.05vw;
+    background-color: white;
+}
+
+@media screen and (max-width:767px) {
+    .EspecialesBoxContents {
+        font-size: 2vw;
+        text-align: left;
+    }
+}
+
+.Especiales > div > div > button {
+    border-radius: 0%;
+    padding: 0; 
+} 
+
+
+
+/* Left */
+.Especiales > div > div > .sc-crrsfI.ljlkae.rec.rec-arrow.rec.rec-arrow-left {
+    color:white;
+    transform: translateX(5vw);
+    background-color: black;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+/* LightCenter */
+.Especiales > div > div > .sc-crrsfI.cXBduU.rec.rec-arrow.rec.rec-arrow-left {
+    color:white;
+    transform: translateX(5vw);
+    background-color: black;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+/* RightCenter */
+.Especiales > div > div > .sc-crrsfI.cXBduU.rec.rec-arrow.rec.rec-arrow-right {
+    color:white;
+    transform: translateX(-5vw);
+    background-color: black;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+/* Right */
+.Especiales > div > div > .sc-crrsfI.ljlkae.rec.rec-arrow.rec.rec-arrow-right {
+    color:white;
+    transform: translateX(-5vw);
+    background-color: black;
+    opacity: 0.5;
+    z-index: 10;
+}
+
+
+/* .EspecialesBoxMobile {
+    display: flex;
+}
+
+.EspecialesBoxMobile > div {
+    padding-left: 2rem;
+} */

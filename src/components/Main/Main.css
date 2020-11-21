@@ -1,0 +1,197 @@
+.MainBox {
+    border: 1px solid rgb(217, 217, 217);
+    border-top: rgb(2, 122, 197) solid 3px;
+}
+
+/* LeftMain */
+
+.LeftMain {
+    padding-left: calc((55vw - 700px));
+}
+
+.LeftMainBoxTxt {
+    text-align: left;
+    padding: 1vw;
+}
+
+.LeftMainBoxTxtTitle {
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+.LeftMainBoxTxtSubTitle {
+    padding-top: 0.2vw;
+    color: black;
+    font-weight: 400;
+    font-size: 0.8vw;
+    word-spacing: -0.1vw;
+}
+
+.LeftMainBoxTxtContents {
+    padding: 0.2vw 0;
+    color: rgb(153, 153, 153);
+    word-spacing: -0.07vw;
+    font-size: 0.7vw;
+}
+
+.LeftMainBoxTxtMiddle {
+    display: flex;
+}
+
+.LeftMainBoxTxtMiddleTxt{
+    font-size: 0.8vw;
+    padding: 0.4vw;
+    color:rgb(153, 153, 153);
+}
+
+.LeftMainBoxTxtFooter {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 0.2vw;
+}
+
+/* LeftMain */
+
+
+
+/* RightMain */
+
+.RightMain {
+    padding-left: 1em;
+    padding-right: calc((55vw - 650px));
+}
+
+@media screen and (max-width: 990px) {
+    .RightMain {
+        padding-left: 0;
+    }
+}
+
+.RightMainBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(153, 153, 153);
+    padding: 0.5vw 0;
+}
+
+.RightMainBoxTopTxt {
+    font-size: 0.8vw;
+}
+
+.RightMainBox1Img {
+    background-color: black;
+    color: white;
+    background-image: url("https://i.esdrop.com/d/J8dz7qk1TS.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.RightMainBox1ImgTop {
+    font-size: 1.2vw;
+    text-decoration: underline;
+    text-decoration-color: rgb(64, 163, 230);
+    text-underline-position: under;
+}
+
+.RightMainBox1ImgBottom {
+    padding-top: 0.4vw;
+    font-size: 0.8vw;
+}
+
+.RightMainBoxEvents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(217, 217, 217);
+    padding:0.5vw 0;
+}
+
+.RightMainBoxMatchBig{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.RightMainBoxMatchTxt{
+    font-size: 0.8vw;
+    text-align: left;
+}
+
+.RightMainBoxMatchSamll{
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-size: 0.6vw;
+    padding:0.5vw 0vw;
+    border-top: 1px solid rgb(217, 217, 217);
+}
+
+.RightMainBoxMatchSamll >div{
+    text-align: left;
+}
+
+.RightMainBtn {
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(153, 153, 153);
+    padding: 1vw;
+    border-radius: 4px;
+    font-size: 0.9vw;
+    font-weight: 700;
+    color: rgb(2, 85, 165);
+    cursor: pointer;
+    
+    /* backgroundColor:"rgb(246, 246, 246)", border: "1px solid rgb(102, 102, 102)", padding:"1rem", borderRadius:"4px",  */
+}
+
+
+.RightMainBoxMatchSamllClick {
+    padding: 1vw 2vw;
+    border-top: 1px solid rgb(217, 217, 217);
+    background-color: white;
+}
+
+.RightMainBoxMatchSamllClickTop {
+    display: flex;
+    justify-content: space-around;
+}
+
+.RightMainBoxMatchSamllClickMiddle {
+    display: flex;
+    justify-content: space-around;
+}
+
+.SmallBoxTeam {
+    font-size: 0.7vw;
+    color: black;
+    font-weight: 500;
+}   
+
+.VS {
+    font-size: 0.7vw;
+    color:rgb(153, 153, 153);
+}
+
+.BottomHead{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.BottomContents{
+    font-size: 0.8vw;
+}
+
+
+.MobileMatchBig {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+    .MobileMatchBig{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+}

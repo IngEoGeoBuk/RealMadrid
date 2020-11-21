@@ -1,0 +1,21 @@
+.Banner {
+  padding: 0 calc((100vw - 1400px) / 2);
+}
+
+.BannerTxt {
+  position: relative;
+  color: white;
+  text-align: left;
+  padding-left: 2vw;
+  bottom: calc((5vw + 0.3rem));
+  background-color: black;
+  opacity: 0.7;
+}
+
+.BannerTxtTop {
+  font-size:1.5vw;
+}
+
+.BannerTxtBottom {
+  font-size:2vw;
+}

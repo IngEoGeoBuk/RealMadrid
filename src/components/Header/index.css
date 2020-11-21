@@ -1,0 +1,60 @@
+.TopBlackHeaderNav {
+    background: black;
+    height: 2.0em;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+
+.TopBlackHeaderNavLink {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 0 calc((110vw - 1400px) / 2);
+    height: 100%;
+    cursor: pointer;
+}
+
+.TopBlackHeaderMenu {
+    display: flex;
+    align-items: right;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.TopBlackHeaderMenuList {
+    padding: 0 0.2rem;
+}
+
+
+
+
+.TopWhiteHeaderNav {
+    height: 5.0em;
+    display: flex;
+    padding: 0;
+}
+
+.TopWhiteHeaderNavLink {
+    display: flex;
+    align-items: center;
+    vertical-align: center;
+    text-decoration: none;
+    padding: 0 calc((83vw - 1000px) / 2);
+    height: 100%;
+    cursor: pointer;
+}
+
+.TopWhiteHeaderMenu {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.TopWhiteHeaderMenuList {
+    padding: 0 0.2rem;
+}
+
