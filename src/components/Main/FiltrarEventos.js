@@ -7,6 +7,7 @@ import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
 import { makeStyles } from '@material-ui/core/styles';
+import styled from 'styled-components'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,10 +23,29 @@ export default function FiltrarEventos() {
   const [open, setOpen] = React.useState(false);
   const anchorRef = React.useRef(null);
 
+  const PcVer = styled.div`
+    @media screen and (max-width:767px) {
+        display: none;
+    }
+  `
+
+  const MobileVer = styled.div`
+    display: none;
+    @media screen and (max-width:767px) {
+        display: grid;
+    }
+`
+
   const MenuItemStyle = {
     fontSize:"0.8rem",
     color:"gray",
     width:"18vw"
+  }
+
+  const MenuItemStyle2 = {
+    fontSize:"1rem",
+    color:"gray",
+    width:"50vw"
   }
 
   const handleToggle = () => {
@@ -78,8 +98,14 @@ export default function FiltrarEventos() {
               <Paper>
                 <ClickAwayListener onClickAway={handleClose}>
                   <MenuList autoFocusItem={open} id="menu-list-grow" onKeyDown={handleListKeyDown}>
-                    <MenuItem onClick={handleClose} style={MenuItemStyle}>Primer equipo</MenuItem>
-                    <MenuItem onClick={handleClose} style={MenuItemStyle}>Real Madrid Baloncesto</MenuItem>
+                    <PcVer>
+                      <MenuItem onClick={handleClose} style={MenuItemStyle}>Primer equipo</MenuItem>
+                      <MenuItem onClick={handleClose} style={MenuItemStyle}>Real Madrid Baloncesto</MenuItem>
+                    </PcVer>
+                    <MobileVer>
+                      <MenuItem onClick={handleClose} style={MenuItemStyle2}>Primer equipo</MenuItem>
+                      <MenuItem onClick={handleClose} style={MenuItemStyle2}>Real Madrid Baloncesto</MenuItem>
+                    </MobileVer>
                   </MenuList>
                 </ClickAwayListener>
               </Paper>

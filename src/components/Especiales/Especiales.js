@@ -212,9 +212,6 @@ function Especiales() {
                                     <div class="EspecialesBox" >
                                         <div class="EspecialesBoxMobile" >
                                             <img src="https://i.esdrop.com/d/Oi6lcjJmMS.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -226,9 +223,6 @@ function Especiales() {
                                     <div class="EspecialesBox">
                                         <div class="EspecialesBoxMobile" >
                                             <img src="https://i.esdrop.com/d/I0xDoxDpTy.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -240,9 +234,6 @@ function Especiales() {
                                     <div class="EspecialesBox">
                                         <div class="EspecialesBoxMobile" >
                                             <img src="https://i.esdrop.com/d/7dnUK9n04i.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -254,9 +245,6 @@ function Especiales() {
                                     <div class="EspecialesBox">
                                         <div class="EspecialesBoxMobile" >
                                             <img src="https://i.esdrop.com/d/u7XpwDeRgr.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -268,9 +256,6 @@ function Especiales() {
                                     <div class="EspecialesBox">
                                         <div class="EspecialesBoxMobile">
                                             <img src="https://i.esdrop.com/d/5furZKXZe6.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -282,9 +267,6 @@ function Especiales() {
                                     <div class="EspecialesBox">
                                         <div class="EspecialesBoxMobile" >
                                             <img src="https://i.esdrop.com/d/bMrTQrtwCG.jpg" width="200vw" height="250vw" />
-                                            <div>
-                                                <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                            </div>
                                         </div>
                                     </div>
                                 </div>
