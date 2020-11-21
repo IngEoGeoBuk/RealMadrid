@@ -45,7 +45,7 @@ function RightMain() {
                                 </div>
                             <div class="RightMainBox1Img">
                                 <div style={{ paddingTop:"0.4rem" }}>
-                                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png"  width="5%" />
+                                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png"  width="7%" height="7%" />
                                 </div>
                                 <div class="RightMainBox1ImgTop">
                                     RealMadrid TV
@@ -82,10 +82,10 @@ function RightMain() {
                             {Open1 ? 
                             <div class="RightMainBoxMatchSamll" style={{ width:"100%", padding:"0.5rem 1rem" }}>
                                 <img src="https://i.esdrop.com/d/0Q5ebiw61T.png" width="8%" height="8%" />
-                                <div style={{ paddingLeft:"4rem" }}>
-                                    ENTRENAMIENTO<br></br>
-                                    <div style={{ fontWeight:"600", fontSize:"0.5rem" }}>Martes, 17 nov</div>
-                                    11:00H<br></br>
+                                <div class = "RightMainBoxMatchSamll1">
+                                    <div>ENTRENAMIENTO<br></br></div>
+                                    <div style={{ fontWeight:"600" }}>Martes, 17 nov</div>
+                                    <div>11:00H<br></br></div>
                                 </div>
                             </div> : 
                             <div style={{ width:"100%" }}>
@@ -94,7 +94,7 @@ function RightMain() {
                                         <img src="https://i.esdrop.com/d/99y3tIR7Yn.png" width="60rem"/>
                                     </div>
                                     <div class="RightMainBoxMatchTxt">
-                                        <div style={{ fontWeight:"500" }}>ENTRENAMIENTO</div>
+                                        <div style={{ fontWeight:"500", fontSize:"0.8vw" }}>ENTRENAMIENTO</div>
                                         Ciudad Real Madrid<br></br>
                                         Puerta cerrada<br></br>
                                         Rueda de prensa: no.<br></br>

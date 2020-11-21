@@ -20,6 +20,12 @@
     font-size: 1vw;
 }
 
+@media screen and (max-width: 767px) {
+    .LeftMainBoxTxtTitle{
+        font-size: 5vw;
+    }
+}
+
 .LeftMainBoxTxtSubTitle {
     padding-top: 0.2vw;
     color: black;
@@ -28,12 +34,26 @@
     word-spacing: -0.1vw;
 }
 
+@media screen and (max-width: 767px) {
+    .LeftMainBoxTxtSubTitle{
+        font-size: 2.5vw;
+    }
+}
+
+
 .LeftMainBoxTxtContents {
     padding: 0.2vw 0;
     color: rgb(153, 153, 153);
     word-spacing: -0.07vw;
     font-size: 0.7vw;
 }
+
+@media screen and (max-width: 767px) {
+    .LeftMainBoxTxtContents{
+        font-size: 2vw;
+    }
+}
+
 
 .LeftMainBoxTxtMiddle {
     display: flex;
@@ -43,6 +63,12 @@
     font-size: 0.8vw;
     padding: 0.4vw;
     color:rgb(153, 153, 153);
+}
+
+@media screen and (max-width: 767px) {
+    .LeftMainBoxTxtMiddleTxt{
+        font-size: 3vw;
+    }
 }
 
 .LeftMainBoxTxtFooter {
@@ -80,6 +106,12 @@
     font-size: 0.8vw;
 }
 
+@media screen and (max-width: 767px) {
+    .RightMainBoxTopTxt{
+        font-size: 4vw;
+    }
+}
+
 .RightMainBox1Img {
     background-color: black;
     color: white;
@@ -95,9 +127,21 @@
     text-underline-position: under;
 }
 
+@media screen and (max-width: 767px) {
+    .RightMainBox1ImgTop{
+        font-size: 5vw;
+    }
+}
+
 .RightMainBox1ImgBottom {
     padding-top: 0.4vw;
     font-size: 0.8vw;
+}
+
+@media screen and (max-width: 767px) {
+    .RightMainBox1ImgBottom{
+        font-size: 4vw;
+    }
 }
 
 .RightMainBoxEvents {
@@ -129,9 +173,13 @@
     border-top: 1px solid rgb(217, 217, 217);
 }
 
-.RightMainBoxMatchSamll >div{
+
+
+.RightMainBoxMatchSamll > div{
     text-align: left;
+    font-size: 0.5rem;
 }
+
 
 .RightMainBtn {
     background-color: rgb(246, 246, 246);
