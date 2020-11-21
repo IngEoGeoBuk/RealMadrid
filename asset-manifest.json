@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/RealMadrid/static/css/main.d5e45f56.chunk.css",
+    "main.css": "/RealMadrid/static/css/main.b2f07582.chunk.css",
     "main.js": "/RealMadrid/static/js/main.0dd450f1.chunk.js",
     "main.js.map": "/RealMadrid/static/js/main.0dd450f1.chunk.js.map",
     "runtime-main.js": "/RealMadrid/static/js/runtime-main.6b71c2d1.js",
@@ -10,13 +10,13 @@
     "static/js/3.a8718182.chunk.js": "/RealMadrid/static/js/3.a8718182.chunk.js",
     "static/js/3.a8718182.chunk.js.map": "/RealMadrid/static/js/3.a8718182.chunk.js.map",
     "index.html": "/RealMadrid/index.html",
-    "static/css/main.d5e45f56.chunk.css.map": "/RealMadrid/static/css/main.d5e45f56.chunk.css.map",
+    "static/css/main.b2f07582.chunk.css.map": "/RealMadrid/static/css/main.b2f07582.chunk.css.map",
     "static/js/2.c44738dc.chunk.js.LICENSE.txt": "/RealMadrid/static/js/2.c44738dc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6b71c2d1.js",
     "static/js/2.c44738dc.chunk.js",
-    "static/css/main.d5e45f56.chunk.css",
+    "static/css/main.b2f07582.chunk.css",
     "static/js/main.0dd450f1.chunk.js"
   ]
 }
