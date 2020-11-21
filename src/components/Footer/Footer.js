@@ -513,7 +513,7 @@ function Footer() {
                     </NavLink>
                 </div>
                 <div class="FooterBottom">
-                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png" width="4%" height="4%" />
+                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png" width="7%" height="7%" />
                 </div>
                 <div class="Copyright">
                     <div>

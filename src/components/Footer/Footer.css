@@ -137,6 +137,7 @@
 @media screen and (max-width:767px) {
     .Copyright {
         display: grid;
+        font-size: 3vw;
     }
 }
 

@@ -267,7 +267,7 @@ function Trophy() {
             </Medium>
             <MobileVer>
             <div style={{ paddingTop: "0.5rem" }}>
-                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png"  width="4%" height="4%"/>
+                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png"  width="7%" height="7%"/>
                 </div>
                 <div style={{ fontSize:"1rem", fontWeight:"400", paddingTop:"0.3rem" }}>
                     PALMARÉS DEL REAL MADRID
@@ -277,77 +277,77 @@ function Trophy() {
                     <Carousel breakPoints={breakPoints3}>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/RyuPg8eOXU.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/RyuPg8eOXU.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle TrophyTitle2">Trofeo FIFA al Mejor<br></br>Club del Siglo XX</div>
                                 <div class="TrophyNumber">1</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/GNKfLnUhzQ.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/GNKfLnUhzQ.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Copas de Europa</div>
                                 <div class="TrophyNumber">13</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/e75wrU0D9I.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/e75wrU0D9I.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle TrophyTitle2">Mundiales de<br></br>Clubes</div>
                                 <div class="TrophyNumber">7</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/z50K4wmxu8.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/z50K4wmxu8.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle TrophyTitle2">Supercopas de<br></br>Europa</div>
                                 <div class="TrophyNumber">4</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/bY9hsZhE82.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/bY9hsZhE82.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Copas de la UEFA</div>
                                 <div class="TrophyNumber">2</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/AeQgFioHk0.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/AeQgFioHk0.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Ligas</div>
                                 <div class="TrophyNumber">34</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/AeQgFioHk0.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/AeQgFioHk0.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Copas del Rey</div>
                                 <div class="TrophyNumber">19</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/lbf8MJJiyB.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/lbf8MJJiyB.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle TrophyTitle2">Supercopas de<br></br>España</div>
                                 <div class="TrophyNumber">11</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/MmXN3rO5vg.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/MmXN3rO5vg.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Copa de la Liga</div>
                                 <div class="TrophyNumber">1</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/pgC3UPD8Pk.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/pgC3UPD8Pk.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle TrophyTitle2">Pequeñas Copas<br></br>del Mundo</div>
                                 <div class="TrophyNumber">2</div>
                             </div>
                         </Item>
                         <Item style={MobileVerBorder}>
                             <div>
-                                <div><img src="https://i.esdrop.com/d/lbf8MJJiyB.jpg" width="50%"/></div>
+                                <div><img src="https://i.esdrop.com/d/lbf8MJJiyB.jpg" width="50%" height="50%"/></div>
                                 <div class="TrophyTitle">Copas Latinas</div>
                                 <div class="TrophyNumber">2</div>
                             </div>

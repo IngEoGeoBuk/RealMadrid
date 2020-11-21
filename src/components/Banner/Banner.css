@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 767px) {
   .BannerTxt{
-    bottom: calc((5vw + 2.5rem));
+    bottom: calc((2vw + 2.5rem));
   }
 }
 

@@ -200,7 +200,7 @@ function Especiales() {
             <MobileVer>
             <div style= {{ backgroundColor:"black" }}>
                     <br></br>
-                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png" width="4%" height="4%"/>
+                    <img src="https://i.esdrop.com/d/9kPaHCUZ3K.png" width="7%" height="7%"/>
                     <div style={{ color:"gray", backgroundColor:"black", fontSize:"1.5rem" }}>ESPECIALES</div>
                 </div>
 
@@ -214,7 +214,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/Oi6lcjJmMS.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents">¡LA DÉCIMA!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -229,7 +228,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/I0xDoxDpTy.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents">¡LA DECIMOTERCERA!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -244,7 +242,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/7dnUK9n04i.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents" style = {{ paddingBottom:"1vw" }}>ALFREDO DI STÉFANO,<br></br>EL MEJOR JUGADOR DETODOS<br></br> LOS TIEMPOS</div>
                                             </div>
                                         </div>
                                     </div>
@@ -259,7 +256,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/u7XpwDeRgr.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents">¡LA 34ª LIGA!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -274,7 +270,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/5furZKXZe6.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents">¡UNDÉCIMA SUPERCOPA<br></br> DE ESPAÑA!</div>
                                             </div>
                                         </div>
                                     </div>
@@ -289,7 +284,6 @@ function Especiales() {
                                             <img src="https://i.esdrop.com/d/bMrTQrtwCG.jpg" width="200vw" height="250vw" />
                                             <div>
                                                 <div class="EspecialesBoxTitle">ESPECIAL</div>
-                                                <div class="EspecialesBoxContents">MODRIC,<br></br>PREMIO THE BEST 2018</div>
                                             </div>
                                         </div>
                                     </div>

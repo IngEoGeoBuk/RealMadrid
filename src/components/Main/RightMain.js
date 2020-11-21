@@ -94,7 +94,7 @@ function RightMain() {
                                         <img src="https://i.esdrop.com/d/99y3tIR7Yn.png" width="60rem"/>
                                     </div>
                                     <div class="RightMainBoxMatchTxt">
-                                        <div style={{ fontWeight:"500", fontSize:"0.8vw" }}>ENTRENAMIENTO</div>
+                                        <div style={{ fontWeight:"500"}} >ENTRENAMIENTO</div>
                                         Ciudad Real Madrid<br></br>
                                         Puerta cerrada<br></br>
                                         Rueda de prensa: no.<br></br>

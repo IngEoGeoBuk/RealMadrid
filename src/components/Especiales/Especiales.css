@@ -48,7 +48,7 @@
 
 @media screen and (max-width:767px) {
     .EspecialesBoxTitle {
-        font-size: 3vw;
+        font-size: 6vw;
         text-align: left;
         padding: 0.3vw 0;
     }
@@ -60,13 +60,6 @@
     padding-bottom: 1.8vw;
     word-spacing: -0.05vw;
     background-color: white;
-}
-
-@media screen and (max-width:767px) {
-    .EspecialesBoxContents {
-        font-size: 2vw;
-        text-align: left;
-    }
 }
 
 .Especiales > div > div > button {

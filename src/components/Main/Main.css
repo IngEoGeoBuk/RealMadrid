@@ -163,6 +163,12 @@
     text-align: left;
 }
 
+@media screen and (max-width: 767px) {
+    .RightMainBoxMatchTxt{
+        font-size: 3.5vw;
+    }
+}
+
 .RightMainBoxMatchSamll{
     background-color: rgb(238, 238, 238);
     display: flex;
@@ -190,8 +196,13 @@
     font-weight: 700;
     color: rgb(2, 85, 165);
     cursor: pointer;
-    
     /* backgroundColor:"rgb(246, 246, 246)", border: "1px solid rgb(102, 102, 102)", padding:"1rem", borderRadius:"4px",  */
+}
+
+@media screen and (max-width: 767px) {
+    .RightMainBtn {
+        font-size: 5vw;
+    }
 }
 
 
@@ -200,6 +211,7 @@
     border-top: 1px solid rgb(217, 217, 217);
     background-color: white;
 }
+
 
 .RightMainBoxMatchSamllClickTop {
     display: flex;
@@ -217,9 +229,21 @@
     font-weight: 500;
 }   
 
+@media screen and (max-width: 767px) {
+    .SmallBoxTeam {
+        font-size: 4vw;
+    }
+}
+
 .VS {
     font-size: 0.7vw;
     color:rgb(153, 153, 153);
+}
+
+@media screen and (max-width: 767px) {
+    .VS {
+        font-size: 4vw;
+    }
 }
 
 .BottomHead{
@@ -227,10 +251,21 @@
     font-weight: 500;
 }
 
+@media screen and (max-width: 767px) {
+    .BottomHead {
+        font-size: 5vw;
+    }
+}
+
 .BottomContents{
     font-size: 0.8vw;
 }
 
+@media screen and (max-width: 767px) {
+    .BottomContents {
+        font-size: 4vw;
+    }
+}
 
 .MobileMatchBig {
     font-size: 1vw;

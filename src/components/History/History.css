@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 767px) {
     .HistoryBoxTitle {
-        font-size: 2vw;
+        font-size: 4vw;
         word-spacing: -0.05rem;
     }
 }
@@ -58,7 +58,7 @@
 
 @media screen and (max-width: 767px) {
     .HistoryBoxContents {
-        font-size: 2vw;
+        font-size: 3.3vw;
         word-spacing: -0.05rem;
     }
 }

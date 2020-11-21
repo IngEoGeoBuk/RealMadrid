@@ -236,9 +236,10 @@ function LeftMain() {
                 </Grid>
             </Grid>
             <NavLink to ="/RealMadrid/elclub" style={NavLinkStyle}>
-                <div style={{ color:"rgb(2, 85, 165)", fontSize:"0.7rem", fontWeight:"700", alignItems:"center", paddingTop:"1rem" }}>
+                <div style={{ color:"rgb(2, 85, 165)", fontSize:"1rem", fontWeight:"700", alignItems:"center", paddingTop:"1rem" }}>
                         VER MÁS NOTICIAS
                 </div>
+                <br></br>
             </NavLink>
         </div>
     )
